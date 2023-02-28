@@ -1,0 +1,4 @@
+.navbar-light,
+.dropdown-menu {
+    background-color: var(--color-bg-light);
+}
