@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import CA1 from "../../assets/CA1.jpg";
 import Meeting from "../../assets/Meeting.jpg";
+import Manserv from "../../assets/manserv.png";
 
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import { AiOutlineBarChart } from "react-icons/ai";
@@ -18,6 +19,7 @@ import { GiIronCross } from "react-icons/gi";
 import { AiOutlineHome } from "react-icons/ai";
 import { TfiPencilAlt } from "react-icons/tfi";
 import { GiBinoculars } from "react-icons/gi";
+import { AiOutlineCheck } from "react-icons/ai";
 
 const services__data = [
   {
@@ -127,6 +129,29 @@ const services__data = [
   },
 ];
 
+const industries__list = [
+  { name: "Banking & Financial Services" },
+  { name: "Cooperative Societies" },
+  { name: "Urban Municipal Corporation" },
+  { name: "Auto Ancillaries" },
+  { name: "Software &Allied Services" },
+  { name: "Agro Based Industries" },
+  { name: "Real Estate Developers" },
+  { name: "Plastic Manufacturing Industries" },
+  { name: "Forging Industry" },
+  { name: "Tools & Dies Manufacturing" },
+  { name: "Domestic Consumable Manufacturing" },
+  { name: "Business & Management Consultancy" },
+  { name: "Pharma Product Manufacturing" },
+  { name: "BioTech & Research Companies" },
+  { name: "Industrial Catering, Facility Management Services" },
+  { name: "Central & State Government Departments" },
+  { name: "E-Commerce Companies" },
+  { name: "Startups" },
+  { name: "Smart City Development Corporations" },
+  { name: "Industrial Manufacturing Companies" },
+];
+
 const Home = () => {
   return (
     <>
@@ -204,6 +229,25 @@ const Home = () => {
       <div className="industries__service">
         <h5>Industries We Serve</h5>
         <div className="line"></div>
+        <div class="container text-center">
+          <div class="row row__industries">
+            {industries__list.map(({ name }) => (
+              <div class="col row__industries-list">
+                <div className="industries__list">
+                  <ul>
+                    <li>
+                      <AiOutlineCheck />
+                    </li>
+                    <li>{name}</li>
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div class="industries__img">
+            <img src={Manserv} alt="man"></img>
+          </div>
+        </div>
       </div>
     </>
   );
