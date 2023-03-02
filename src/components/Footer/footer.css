@@ -1,0 +1,22 @@
+.row__footer {
+    background-color: var(--color-bg-light);
+    color: var(--color-sub-heading-text);
+    padding: 1rem 5rem;
+    margin-bottom: 0;
+}
+
+.col__footer {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-color: var(--color-sub-heading-text);
+}
+
+.col__contact ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.col__contact ul li {
+    padding-right: 0.5rem;
+}
