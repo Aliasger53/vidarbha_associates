@@ -1,3 +1,5 @@
+// Our services data imports
+
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import { AiOutlineBarChart } from "react-icons/ai";
 import { FaHandsHelping } from "react-icons/fa";
@@ -13,6 +15,16 @@ import { GiIronCross } from "react-icons/gi";
 import { AiOutlineHome } from "react-icons/ai";
 import { TfiPencilAlt } from "react-icons/tfi";
 import { GiBinoculars } from "react-icons/gi";
+
+// Footer imports
+import { BiPhoneCall } from "react-icons/bi";
+import { BsWhatsapp } from "react-icons/bs";
+import { MdOutlineEmail } from "react-icons/md";
+import { BsLinkedin } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+
+// Our services data
 
 const services__data = [
   {
@@ -122,6 +134,8 @@ const services__data = [
   },
 ];
 
+// industries we serve data
+
 const industries__list = [
   { name: "Banking & Financial Services" },
   { name: "Cooperative Societies" },
@@ -145,5 +159,41 @@ const industries__list = [
   { name: "Industrial Manufacturing Companies" },
 ];
 
+// contact list
+
+const contact__list = [
+  {
+    href: "tel:+918928755932",
+    icon: <BiPhoneCall />,
+    text: "+91 89287 55932",
+  },
+  {
+    href: "https://wa.me/+918928755932",
+    icon: <BsWhatsapp />,
+    text: "WhatsApp",
+  },
+  {
+    href: "mailto:hamzahb.gst@gmail.com",
+    icon: <MdOutlineEmail />,
+    text: "hamzahb.gst@gmail.com",
+  },
+  {
+    href: "#",
+    icon: <BsLinkedin />,
+    text: "LinkedIn",
+  },
+  {
+    href: "#",
+    icon: <BsFacebook />,
+    text: "Facebook",
+  },
+  {
+    href: "#",
+    icon: <BsInstagram />,
+    text: "Instagram",
+  },
+];
+
 export { services__data };
 export { industries__list };
+export { contact__list };
