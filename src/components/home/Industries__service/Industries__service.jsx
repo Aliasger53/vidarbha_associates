@@ -2,29 +2,7 @@ import React from "react";
 import "./industries__service.css";
 import { AiOutlineCheck } from "react-icons/ai";
 import Manserv from "../../../assets/manserv.png";
-
-const industries__list = [
-  { name: "Banking & Financial Services" },
-  { name: "Cooperative Societies" },
-  { name: "Urban Municipal Corporation" },
-  { name: "Auto Ancillaries" },
-  { name: "Software &Allied Services" },
-  { name: "Agro Based Industries" },
-  { name: "Real Estate Developers" },
-  { name: "Plastic Manufacturing Industries" },
-  { name: "Forging Industry" },
-  { name: "Tools & Dies Manufacturing" },
-  { name: "Domestic Consumable Manufacturing" },
-  { name: "Business & Management Consultancy" },
-  { name: "Pharma Product Manufacturing" },
-  { name: "BioTech & Research Companies" },
-  { name: "Industrial Catering, Facility Management Services" },
-  { name: "Central & State Government Departments" },
-  { name: "E-Commerce Companies" },
-  { name: "Startups" },
-  { name: "Smart City Development Corporations" },
-  { name: "Industrial Manufacturing Companies" },
-];
+import { industries__list } from "../../Data__structure";
 
 const Industries__service = () => {
   return (
