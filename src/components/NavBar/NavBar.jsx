@@ -5,7 +5,7 @@ import { services__data } from "../Data__structure";
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light navbar__position">
         <a className="navbar-brand" href="#">
           Vidarbha Associates
         </a>
