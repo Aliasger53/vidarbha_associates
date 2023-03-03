@@ -2,6 +2,7 @@
     text-align: center;
     background-color: var(--color-bg-light);
     margin-bottom: 2rem;
+    padding-top: 1.2rem;
 }
 
 .industries__list {
