@@ -2,3 +2,45 @@
 .dropdown-menu {
     background-color: var(--color-bg-light);
 }
+
+
+.service__heading {
+    display: flex;
+}
+
+.service__down:hover .service__drop-down {
+    opacity: 1;
+    z-index: 2;
+}
+
+
+.service__drop-down {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -20rem !important;
+    opacity: 0;
+    z-index: -2;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+
+@media screen and (max-width:992px) {
+    .service__drop-down {
+        display: none !important;
+        margin-left: 0 !important;
+    }
+
+    .dropdown-toggle::after {
+        display: inline-block;
+    }
+
+    .show {
+        opacity: 1;
+        position: relative !important;
+        z-index: 2 !important;
+        display: block !important
+    }
+}

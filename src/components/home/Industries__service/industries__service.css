@@ -1,0 +1,58 @@
+.industries__service {
+    text-align: center;
+    background-color: var(--color-bg-light);
+    margin-bottom: 2rem;
+}
+
+.industries__list {
+    text-align: left;
+}
+
+.row__industries {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.6rem;
+}
+
+.row__industries-list ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.row__industries-list ul li {
+    margin-right: 0.5rem;
+}
+
+.industries__img {
+    display: flex;
+    justify-content: right;
+    margin-top: -20rem;
+}
+
+@media screen and (max-width:992px) {
+    .row__industries {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.8rem;
+        text-align: justify;
+        padding: 0 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .industries__img {
+        margin-right: -4rem;
+    }
+}
+
+@media screen and (max-width:761px) {
+    .row__industries {
+        width: 100%;
+    }
+
+    .industries__img {
+        justify-content: center;
+        margin: 0;
+    }
+}

@@ -1,8 +1,8 @@
 .row__footer {
     background-color: var(--color-bg-light);
     color: var(--color-sub-heading-text);
-    padding: 1rem 5rem;
-    margin-bottom: 0;
+    padding: 1rem 1rem;
+    margin: 0;
 }
 
 .col__footer {
@@ -19,4 +19,25 @@
 
 .col__contact ul li {
     padding-right: 0.5rem;
+}
+
+.col__contact a:hover {
+    color: var(--color-text-hover);
+}
+
+@media screen and (max-width:1200px) {
+    .row__footer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:865px) {
+    .row__footer {
+        grid-template-columns: 1fr;
+    }
+
+    .col__footer {
+        border-left: none;
+        border-right: none;
+    }
 }
