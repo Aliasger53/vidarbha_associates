@@ -25,6 +25,7 @@ const Footer = () => {
             Flat No.115, Mohammedi Mohalla Near Kanji House, Nagpur-440017.
           </span>
         </a>
+        <br />
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.4641906067322!2d79.12505651424786!3d21.17371128819146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c6df28c9d971%3A0x77cf122e55021eec!2sFakhri%20Masjid%2CBohra%20Mosque!5e0!3m2!1sen!2sin!4v1677858562884!5m2!1sen!2sin"
           className="gmap"
