@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/vidarbha_associates/static/css/main.ae14a146.css",
-    "main.js": "/vidarbha_associates/static/js/main.f6156a74.js",
+    "main.css": "/vidarbha_associates/static/css/main.43c316c1.css",
+    "main.js": "/vidarbha_associates/static/js/main.2aefc659.js",
     "static/js/787.d37f7e2f.chunk.js": "/vidarbha_associates/static/js/787.d37f7e2f.chunk.js",
     "static/media/CA1.jpg": "/vidarbha_associates/static/media/CA1.a68d95f6dc5e9c5e4860.jpg",
-    "static/media/manserv.png": "/vidarbha_associates/static/media/manserv.eccdb5b07e550aaf7605.png",
     "static/media/Meeting.jpg": "/vidarbha_associates/static/media/Meeting.6890d51acb7eec1fafa8.jpg",
     "static/media/vaLogo.png": "/vidarbha_associates/static/media/vaLogo.d145f77a87dd7f6ef034.png",
     "index.html": "/vidarbha_associates/index.html",
-    "main.ae14a146.css.map": "/vidarbha_associates/static/css/main.ae14a146.css.map",
-    "main.f6156a74.js.map": "/vidarbha_associates/static/js/main.f6156a74.js.map",
+    "main.43c316c1.css.map": "/vidarbha_associates/static/css/main.43c316c1.css.map",
+    "main.2aefc659.js.map": "/vidarbha_associates/static/js/main.2aefc659.js.map",
     "787.d37f7e2f.chunk.js.map": "/vidarbha_associates/static/js/787.d37f7e2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae14a146.css",
-    "static/js/main.f6156a74.js"
+    "static/css/main.43c316c1.css",
+    "static/js/main.2aefc659.js"
   ]
 }
