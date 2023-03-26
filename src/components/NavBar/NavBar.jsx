@@ -1,13 +1,18 @@
 import React from "react";
 import "./navBar.css";
+import vaLogo from "../../assets/vaLogo.png";
 import { services__data } from "../Data__structure";
 
 const NavBar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light navbar__position">
-        <a className="navbar-brand" href="#">
-          Vidarbha Associates
+        <a className="navbar-brand logo" href="#">
+          <img
+            src={vaLogo}
+            alt="vidarbha associates Logo"
+            className="logo__img"
+          />
         </a>
         <button
           className="navbar-toggler"

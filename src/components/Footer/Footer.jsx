@@ -22,7 +22,8 @@ const Footer = () => {
         <a href="https://goo.gl/maps/tsLr6Pz7S8Gdb5bG8" target="_blank">
           <h5>Address</h5>
           <span className="footer__address">
-            Flat No.115, Mohammedi Mohalla Near Kanji House, Nagpur-440017.
+            Kamal Tower Block No 1 Opp Indian Petrol Pump Vaishali Nagar Nagpur
+            440017.
           </span>
         </a>
         <br />

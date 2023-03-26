@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <div className="container__home">
-        <img src={CA1} alt="CA" />
+        <img src={CA1} alt="CA" className="header__img" />
         <div className="welcome__msg">
           <h3> Welcome To Vidarbha Associates</h3>Accounting, Tax & Audit Firm
         </div>

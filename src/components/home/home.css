@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.header__img {
+    margin-top: 3rem;
+}
+
 .welcome__msg {
     font-size: 1.5rem;
     background-color: var(--color-bg-light);
